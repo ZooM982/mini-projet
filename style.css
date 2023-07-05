@@ -108,6 +108,9 @@ background: #eee;
 	background: white;
 	border-radius: 50px;
 	margin-left: 65px;
-}
+	}
+	#produit-achter .prac{
+		margin-left: 30px;
+	}
 }
 /*--Temoignage section exit--*/
