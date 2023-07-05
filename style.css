@@ -112,5 +112,9 @@ background: #eee;
 	#produit-achter .prac{
 		margin-left: 30px;
 	}
+	#type-produit .carousel-item img{
+		width: 200px;
+		height: 200px;
+	}
 }
 /*--Temoignage section exit--*/
