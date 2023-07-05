@@ -62,6 +62,10 @@ background: #eee;
 #type-produit .nav a p{
 	border-bottom: 2px solid green;
 }
+#type-produit .carousel-item img{
+	width: 700px;
+	height: 400px;
+}
 /*type-produit section*/
 /*produit-achter section*/
 #produit-achter .card{
@@ -113,8 +117,9 @@ background: #eee;
 		margin-left: 30px;
 	}
 	#type-produit .carousel-item img{
-		width: 200px;
+		width: 300px;
 		height: 200px;
+		margin-left: 40px;
 	}
 }
 /*--Temoignage section exit--*/
