@@ -96,5 +96,18 @@ background: #eee;
 	text-align: justify;
 	padding: 20px;
 }
-
+@media (max-width:780px){
+	#Temoignage img{
+	width: 200px;
+	height: 250px;
+	border-radius: 50px;
+	margin-left: 90px;
+	}
+	#Temoignage .carousel-item .txt{
+	width: 280px;
+	background: white;
+	border-radius: 50px;
+	margin-left: 65px;
+}
+}
 /*--Temoignage section exit--*/
