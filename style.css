@@ -1,4 +1,25 @@
-/*partie connexion*/
+body{
+	background: radial-gradient(whitesmoke, gray, black);
+}
+.titre{
+	height: 70px;
+	background: conic-gradient(gray, whitesmoke);
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.titre a{
+	font-size: 20px;
+	margin-top: 10px;
+	text-decoration: overline red;
+	border-bottom: 2px solid green;
+	margin-right: 10px;
+	color: yellow;
+}
+
+
+/*partie page connexion*/
 
 .divider:after,
 .divider:before {
@@ -8,4 +29,72 @@ height: 1px;
 background: #eee;
 }
 
-/*partie connexion exit*/
+/*partie page connexion exit*/
+
+/*-- navbar section--*/
+
+.navbar i{
+	font-size: 35px;
+}
+.navbar form{
+	margin-right: 40px;
+}
+.nav-item .cont{
+	text-decoration: overline red;
+}
+.nav-item .cont p{
+	border-bottom: 2px solid green;
+	font-size: 20px;
+	width: 138px;
+}
+.nav-item .cont p:hover{
+	color: black;
+	background: yellowgreen;
+}
+/*-- navbar section exit--*/
+
+/*type-produit section*/
+#type-produit .nav a{
+	text-decoration: overline red;
+	color: white;
+	font-size: 20px;	
+}
+#type-produit .nav a p{
+	border-bottom: 2px solid green;
+}
+/*type-produit section*/
+/*produit-achter section*/
+#produit-achter .card{
+	height: 150px;
+	width: 312px;
+	border-radius: 0;
+	border: none;
+	background: initial;
+	color: white;
+}
+/*produit-achter section exit--*/
+
+/*--Temoignage section--*/
+#Temoignage img{
+	width: 245px;
+	height: 294px;
+	border-radius: 50px;
+}
+#Temoignage button{
+	background: aliceblue;
+	width: 60px;
+}
+#Temoignage span {
+	color: black;
+}
+#Temoignage .carousel-item .txt{
+	width: 400px;
+	background: white;
+	border-radius: 50px;
+}
+#Temoignage .carousel-item p{
+	text-align: justify;
+	padding: 20px;
+}
+
+/*--Temoignage section exit--*/

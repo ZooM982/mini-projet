@@ -3,38 +3,31 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title></title>
 </head>
 <body>
-<header>
+<header class="mb-5">
 <!-- navbar section-->
-	<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+	<nav class="navbar navbar-expand-lg bg-white fixed-top mb-5 shadow-lg">
 		<div class="container-fluid">
-		    <a class="navbar-brand" href="#">Haurly electro</a>
+		    <a class="navbar-brand" href="#top">Haurly electro</a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		      	<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 		        	<li class="nav-item">
-		          		<a class="nav-link active" aria-current="page" href="#">Home</a>
+		          		<a class="nav-link" href="#type-produit">Les types de produit</a>
 		        	</li>
 		        	<li class="nav-item">
-		          		<a class="nav-link" href="#">Link</a>
-		        	</li>
-		        	<li class="nav-item dropdown">
-		          		<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            	Dropdown
-		          		</a>
-		          		<ul class="dropdown-menu">
-		            		<li><a class="dropdown-item" href="#">Action</a></li>
-		            		<li><a class="dropdown-item" href="#">Another action</a></li>
-		            		<li><hr class="dropdown-divider"></li>
-		            		<li><a class="dropdown-item" href="#">Something else here</a></li>
-		          		</ul>
+		          		<a class="nav-link" href="#produit-achter">Les produit les plus achtés</a>
 		        	</li>
 		        	<li class="nav-item">
-		          		<a class="nav-link disabled">Disabled</a>
+		        		<a class="nav-link" href="#Temoignage">Témoignages clients</a>
+		        	</li>
+		        	<li class="nav-item">
+		          		<a class="nav-link cont" href=""><p>Nous contacter</p> </a>
 		        	</li>
 		      	</ul>
 		      	<form class="d-flex" role="search">
@@ -47,8 +40,437 @@
 	</nav>
 <!-- navbar section exit-->
 </header>
-<main>
-	
+<main class="my-5">
+<!-- produit type section-->
+<section id="type-produit" class="py-5 mt-5">
+	<div class="container">
+		<h1 class="titre">Type de produit <a href="produit.html" class="float-end text-muted">Voir plus</a> </h1>
+		<div class="row">
+			<div class="col-md-8 mx-auto">
+	            <ul class="nav col-md-6 mx-auto py-3" id="pills-tab" role="tablist">
+		            <li class="nav-item">
+		            	<a class="nav-link active" data-bs-toggle="pill" href="#pills-smart" aria-selected="true"><p>Smartphone</p> </a>
+		            </li>
+		            <li class="nav-item">
+		            	<a class="nav-link" data-bs-toggle="pill" href="#pills-laptop" aria-selected="false"><p>Laptops</p> </a>
+		            </li>
+		            <li class="nav-item">
+		            	<a class="nav-link" data-bs-toggle="pill" href="#pills-desktop"  aria-selected="false"><p>Desktops</p> </a>
+		            </li>
+	            </ul>
+            	<div class="tab-content">
+	              	<div class="tab-pane fade show active" id="pills-smart">
+	              		<div class="container">
+							<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+						    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  						</div>
+		  						<div class="carousel-inner">
+		    						<div class="carousel-item active">
+		      							<div class="row test1">
+											<div class="col-md-5">
+												<img src="images/smartphone/Stuff-Best-Small-Compact-Smartphone-iPhone-13-Mini.webp" style="width:700px;height: 400px;">
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+											<div class="col-md-5">
+												<img src="images/smartphone/Motorola-Moto-G82-review-in-hand-homescreen.webp" style="width:700px;height: 400px;">
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+											<div class="col-md-5">
+												<img src="images/smartphone/Motorola-Edge-30-Ultra-lead.webp" style="width:700px;height: 400px;">
+											</div>
+										</div>
+		    						</div>
+		  						</div>
+						  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Previous</span>
+						  		</button>
+						  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Next</span>
+						  		</button>
+						  	</div>
+						</div>
+					</div>
+	            	<div class="tab-pane fade" id="pills-laptop">
+	                	<div class="container">
+						<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+					    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  					</div>
+		  					<div class="carousel-inner">
+		   						<div class="carousel-item active">
+		    						<div class="row test1">
+										<div class="col-md-5">
+											<img src="images/laptops/ASUS-Chromebook-CX1100-best-cheap-laptop-main.webp" style="width:700px;height: 400px;">
+										</div>
+									</div>
+		    					</div>
+		   						<div class="carousel-item">
+		   							<div class="row test2">
+										<div class="col-md-5">
+											<img src="images/laptops/Best-Cheap-Laptops-2023-HP-17-cn0000sa.webp" style="width:700px;height: 400px;">
+										</div>
+									</div>
+		    					</div>
+		    					<div class="carousel-item">
+		      						<div class="row test2">
+										<div class="col-md-5">
+											<img src="images/laptops/Dell-Inspiron-15-3000best-cheap-laptop-main1.webp" style="width:700px;height: 400px;">
+										</div>
+									</div>
+		    					</div>
+		  					</div>
+						  	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    	<span class="visually-hidden">Previous</span>
+						  	</button>
+						  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    	<span class="visually-hidden">Next</span>
+						  	</button>
+						</div>
+						</div>
+	            	</div>
+	            	<div class="tab-pane fade" id="pills-desktop">
+		                <div class="container">
+							<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+						    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  						</div>
+		  						<div class="carousel-inner">
+		    						<div class="carousel-item active">
+		      							<div class="row test1">
+											<div class="col-md-5">
+												<img src="images/desktop/s-l1600.jpg" style="width:700px;height: 400px;">
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+											<div class="col-md-5">
+												<img src="images/desktop/s-l1600.png" style="width:700px;height: 400px;">
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+											<div class="col-md-5">
+												<img src="images/desktop/s-l1600.png" style="width:700px;height: 400px;">
+											</div>
+										</div>
+		    						</div>
+		  						</div>
+						  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Previous</span>
+						  		</button>
+						  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Next</span>
+						  		</button>
+							</div>
+						</div>
+	            	</div>
+	            </div>
+            </div>
+        </div>
+	</div>
+</section>
+<!-- produit type section exit-->
+<!-- produit acheter section-->
+<section id="produit-achter" class="py-5">
+	<div class="container">
+		<h1 class="titre">Les plus achetés  <a href="produit.html" class="float-end text-muted">Voir plus</a> </h1>
+		<div class="row py-3">
+			<div class="row">
+	            <div class="col-md-4 mx-auto">
+	            	<div class="container">
+							<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		  						<div class="carousel-inner">
+		    						<div class="carousel-item active">
+		      							<div class="row test1">
+		      								<h3>iPhone 14 pro</h3>
+											<div class="col-md-5">
+												<img src="images/smartphone/iphone-14-pro.webp" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													<ul>
+														<li>Screen: 6.1in, 2556×1179 OLED, 120Hz</li>
+														<li>Processor: A16 Bionic </li>
+														<li>RAM: 6GB </li>
+														<li>Storage: 128GB/256GB/512GB/1TB</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+		      								<h3>Samsung Galazy-Z Fold 4</h3>
+											<div class="col-md-5">
+												<img src="images/smartphone/Samsung-Galazy-Z-Fold-4-lead.webp" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+											<div class="card-title">
+													<ul>
+														<li>Cover display: 6.2in 2316×904</li>
+														<li>Main display: 7.6in 2176×1812</li>
+														<li>Cameras: 12+50+10MP(rear), 4MP(front), 10MP(cover)</li>
+														<li>Processor:Qualcomm Snapdragon 8+Gen1</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+		      								<h3>Google Pixel 7 Pro</h3>
+											<div class="col-md-5">
+												<img src="images/smartphone/Google-Pixel-7-Pro-in-hand-homescreen.jpg" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													<ul>
+														<li>Screen: 6.7in, 3120×1440 OLED, 120Hz</li>
+														<li>Processor: Google Tensor G2</li>
+														<li>RAM: 12GB</li>
+														<li>Storage: 128/256/512GB</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		  						</div>
+						  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Previous</span>
+						  		</button>
+						  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Next</span>
+						  		</button>
+							</div>
+						</div>
+	            </div>
+	            <div class="col-md-4 mx-auto">
+	            	<div class="container">
+							<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		  						<div class="carousel-inner">
+		    						<div class="carousel-item active">
+		      							<div class="row test1">
+		      								<h3>Lenovo IdeaPad Flex 3</h3>
+											<div class="col-md-5">
+												<img src="images/laptops/Best-Cheap-Laptops-2023-Lenovo-IdeaPad-Flex-3.webp" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													<p>With a 15.6in Full HD screen, 8GB of RAM, and 128GB of storage</p>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+		      								<h3>Macbook pro 16</h3>
+											<div class="col-md-5">
+												<img src="images/laptops/macbook-pro-16.webp" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													<ul>
+														<li>CPU: M2 Pro, M2 Max</li>
+														<li>RAM: 16GB, 32GB, 64GB, 96GB</li>
+														<li>Storage: 512GB, 1TB, 2TB, 4TB, 8TB</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+		      								<h3>Asus rog zephyrus</h3>
+											<div class="col-md-5">
+												<img src="images/laptops/asus-rog-zephyrus.jpg" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													<ul>
+														<li>Processor: AMD Ryzen 9 6900HX Mobile Processor (8-core/16-thread, 20MB cache, up to 4.9 GHz max boost)</li>
+														<li>Memory: 32GB (16GB SO-DIMM *2) DDR5 4800MHz Support up to 64GB with Storage: 2TB PCIe 4.0 NVMe M.2 SSD</li>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		  						</div>
+						  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Previous</span>
+						  		</button>
+						  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Next</span>
+						  		</button>
+							</div>
+						</div>
+	            </div>
+		        <div class="col-md-4 mx-auto">
+		        	<div class="container">
+							<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+								
+		  						<div class="carousel-inner">
+		    						<div class="carousel-item active">
+		      							<div class="row test1">
+		      								<h3>Lenovo thinkcare</h3>
+											<div class="col-md-5">
+												<img src="images/desktop/s-l1600.jpg" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													<ul>
+														<li>CPU : i7-4587T</li>
+														<li>RAM : 16 GB</li>
+														<li>HDD: 1TB</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+		      								<h3>HP itel core 3</h3>
+											<div class="col-md-5">
+												<img src="images/desktop/s-l1600.png" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													
+												</div>
+											</div>
+										</div>
+		    						</div>
+		    						<div class="carousel-item">
+		      							<div class="row test2">
+											<div class="col-md-5">
+												<img src="images/desktop/s-l1600.png" style="width:300px; height: 200px;">
+											</div>
+											<div class="card">
+												<div class="card-title">
+													
+												</div>
+											</div>
+										</div>
+		    						</div>
+		  						</div>
+						  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Previous</span>
+						  		</button>
+						  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    		<span class="visually-hidden">Next</span>
+						  		</button>
+							</div>
+						</div>
+		        </div>
+          	</div>
+		</div>
+	</div>
+</section>
+<!-- produit acheter section exit-->
+<!-- temoignage client-->
+<section id="Temoignage" class="py-5">
+	<div class="container">
+		<h1 class="titre">Temoignage des clients</h1>
+		<div class="row py-5">
+			<div id="carouselExampleFade" class="carousel slide carousel-fade">
+				<div class="carousel-inner">
+				    <div class="carousel-item active">
+				      	<div class="row g-3 mx-auto">
+							<div class="col-md-3 ms-auto">
+								<img src="images/temoignage/t1.jpg">
+							</div>
+							<div class="txt col-md-3 me-auto">
+								<p>Lorem ipsum dolor sit amet. Sed officiis saepe ut debitis velit quo dolores aperiam eos minima atque. Qui voluptas labore cum repellat nisi id nihil perferendis quo ipsam delectus non delectus quisquam. Et quam enim ut doloribus amet et harum iste aut voluptatem quia est sint officia. Non saepe voluptas qui dicta quidem sed laborum corporis vel nostrum porro a expedita quaerat aut alias earum!</p>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      	<div class="row g-3">
+							<div class="col-md-3 ms-auto">
+								<img src="images/temoignage/t5.jpg">
+							</div>
+							<div class="txt col-md-3 me-auto">
+								<p>Lorem ipsum dolor sit amet. Sed officiis saepe ut debitis velit quo dolores aperiam eos minima atque. Qui voluptas labore cum repellat nisi id nihil perferendis quo ipsam delectus non delectus quisquam. Et quam enim ut doloribus amet et harum iste aut voluptatem quia est sint officia. Non saepe voluptas qui dicta quidem sed laborum corporis vel nostrum porro a expedita quaerat aut alias earum!</p>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				     	<div class="row g-3">
+							<div class="col-md-3 ms-auto">
+								<img src="images/temoignage/t3.avif">
+							</div>
+							<div class="txt col-md-3 me-auto">
+								<p>Lorem ipsum dolor sit amet. Sed officiis saepe ut debitis velit quo dolores aperiam eos minima atque. Qui voluptas labore cum repellat nisi id nihil perferendis quo ipsam delectus non delectus quisquam. Et quam enim ut doloribus amet et harum iste aut voluptatem quia est sint officia. Non saepe voluptas qui dicta quidem sed laborum corporis vel nostrum porro a expedita quaerat aut alias earum!</p>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				     	<div class="row g-3">
+							<div class="col-md-3 ms-auto">
+								<img src="images/temoignage/t4.avif">
+							</div>
+							<div class="txt col-md-3 me-auto">
+								<p>Lorem ipsum dolor sit amet. Sed officiis saepe ut debitis velit quo dolores aperiam eos minima atque. Qui voluptas labore cum repellat nisi id nihil perferendis quo ipsam delectus non delectus quisquam. Et quam enim ut doloribus amet et harum iste aut voluptatem quia est sint officia. Non saepe voluptas qui dicta quidem sed laborum corporis vel nostrum porro a expedita quaerat aut alias earum!</p>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				     	<div class="row g-3">
+							<div class="col-md-3 ms-auto">
+								<img src="images/temoignage/t2.avif">
+							</div>
+							<div class="txt col-md-3 me-auto">
+								<p>Lorem ipsum dolor sit amet. Sed officiis saepe ut debitis velit quo dolores aperiam eos minima atque. Qui voluptas labore cum repellat nisi id nihil perferendis quo ipsam delectus non delectus quisquam. Et quam enim ut doloribus amet et harum iste aut voluptatem quia est sint officia. Non saepe voluptas qui dicta quidem sed laborum corporis vel nostrum porro a expedita quaerat aut alias earum!</p>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				     	<div class="row g-3">
+							<div class="col-md-3 ms-auto">
+								<img src="images/temoignage/t6.jpg">
+							</div>
+							<div class="txt col-md-3 me-auto">
+								<p>Lorem ipsum dolor sit amet. Sed officiis saepe ut debitis velit quo dolores aperiam eos minima atque. Qui voluptas labore cum repellat nisi id nihil perferendis quo ipsam delectus non delectus quisquam. Et quam enim ut doloribus amet et harum iste aut voluptatem quia est sint officia. Non saepe voluptas qui dicta quidem sed laborum corporis vel nostrum porro a expedita quaerat aut alias earum!</p>
+							</div>
+						</div>
+				    </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+				    <span class="">P<br>r<br>e<br>v<br>i<br>o<br>u<br>s</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+				    <span class="">N<br>e<br>x<br>t</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- temoignage client exit-->
 </main>
 <footer>
 	
