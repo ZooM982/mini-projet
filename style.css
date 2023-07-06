@@ -1,5 +1,8 @@
 body{
+	margin: 0;
+	padding: 0;
 	background: radial-gradient(whitesmoke, gray, black);
+	font-weight: 700;
 }
 .titre{
 	height: 70px;
@@ -103,43 +106,7 @@ background: #eee;
 	text-align: justify;
 	padding: 20px;
 }
-@media (max-width:780px){
-	#Temoignage img{
-	width: 200px;
-	height: 250px;
-	border-radius: 50px;
-	margin-left: 90px;
-	}
-	#Temoignage .carousel-item .txt{
-	width: 280px;
-	background: white;
-	border-radius: 50px;
-	margin-left: 65px;
-	}
-	#produit-achter .prac{
-		margin-left: 30px;
-	}
-	#type-produit .carousel-item img{
-		width: 300px;
-		height: 200px;
-		margin-left: 40px;
-	}
-	.navbar .navbar-brand{
-		width: 50px;
-	}
-	.navbar .navbar-brand img{
-		width: 30px;
-		height: 30px;
-		margin-left: -100px;
-		margin-top: -20px;
-	}
-	.navbar .navbar-toggler button{
-		margin-left: -50px;
-	}
-	.navbar i{
-		margin-left: -70px;
-	}
-}
+
 /*--Temoignage section exit--*/
 
 footer{
@@ -168,4 +135,46 @@ footer i{
 	height: 100px;
 	padding: 15px;
 	background: white;
+}
+
+
+
+
+
+
+@media (max-width:780px){
+	#Temoignage img{
+	width: 200px;
+	height: 250px;
+	border-radius: 50px;
+	margin-left: 90px;
+	}
+	#Temoignage .carousel-item .txt{
+	width: 280px;
+	background: white;
+	border-radius: 50px;
+	margin-left: 65px;
+	}
+	#produit-achter .prac{
+		margin-left: 30px;
+	}
+	#type-produit .carousel-item img{
+		width: 300px;
+		height: 200px;
+		margin-left: 40px;
+	}
+	.navbar .navbar-brand{
+		width: 50px;
+	}
+	.navbar .navbar-brand img{
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+	}
+	.navbar .navbar-toggler button{
+		margin-left: -50px;
+	}
+	.navbar i{
+		margin-left: -70px;
+	}
 }
