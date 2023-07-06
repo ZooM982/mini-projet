@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="images/fav.png">
+	<title>Liste de produit</title>
+</head>
+<body>
+<header>
+<!-- navbar section-->
+	<nav class="navbar navbar-expand-lg bg-white sticky-top mb-5 shadow-lg">
+		<div class="container-fluid">
+		    <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height: 100px;width:100px"> </a>
+		    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      	<ul class="navbar-nav mx-auto mb-2 mb-lg-0 bg-white">
+		        	<li class="nav-item">
+		          		<a class="nav-link" href="#type-produit">Les types de produit</a>
+		        	</li>
+		        	<li class="nav-item">
+		          		<a class="nav-link" href="#produit-achter">Les produit les plus achtés</a>
+		        	</li>
+		        	<li class="nav-item">
+		        		<a class="nav-link" href="#Temoignage">Témoignages clients</a>
+		        	</li>
+		        	<li class="nav-item">
+		          		<a class="nav-link cont" href=""><p>Nous contacter</p> </a>
+		        	</li>
+		      	</ul>
+		      	<form class="d-flex" role="search">
+		        	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        	<button class="btn btn-outline-success" type="submit">Search</button>
+		      	</form>
+		    </div>
+		    <i class="fa-sharp fa-solid fa-cart-plus"></i>
+		</div>
+	</nav>
+<!-- navbar section exit-->
+</header>
+<main class="my-5" id="liste-produit">
+<!-- smarthphone section-->
+	<section id="smartphone" class="py-5">
+		<div class="container">
+			<h1 class="text-center liste-text">Nos telephones portables dernieres génération</h1>
+			<div class="row g-3 mx-auto">
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/Google-Pixel-7a-review-rear.jpg">
+					<div class="card-body">
+						<a href="#modal1" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/iphone-14-pro.webp">
+					<div class="card-body">
+						<a href="#modal2" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/Motorola-Edge-30-Ultra-lead.webp">
+					<div class="card-body">
+						<a href="#modal3" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/Samsung-Galazy-Z-Fold-4-lead.webp">
+					<div class="card-body">
+						<a href="#modal4" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img src="images/smartphone/Samsung-Galaxy-S23-Ultra-review-front.jpg">
+					<div class="card-body">
+						<a href="#modal5" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/Motorola-Moto-G82-review-in-hand-homescreen.webp">
+					<div class="card-body">
+						<a href="#modal6" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/Google-Pixel-7-Pro-in-hand-homescreen.jpg">
+					<div class="card-body">
+						<a href="#modal7" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img src="images/smartphone/Stuff-Best-Small-Compact-Smartphone-iPhone-13-Mini.webp">
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/OnePlus-11-review-in-hand-rear.webp">
+					<div class="card-body">
+						<a href="#modal9" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/smartphone/Sony-Xperia-1-V-in-hand-front.webp">
+					<div class="card-body">
+						<a href="#modal10" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- smartphone section exit-->
+
+<!-- laptops section-->
+	<section id="laptops" class="py-5">
+		<div class="container">
+			<h1 class="text-center liste-text">Nos ordinateurs portables</h1>
+			<div class="row g-3 mx-auto">
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/Asis-Vivobook-E510MAbest-cheap-laptop-main1.webp">
+					<div class="card-body">
+						<a href="#modal11" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/ASUS-Chromebook-CX1100-best-cheap-laptop-main.webp">
+					<div class="card-body">
+						<a href="#modal12" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/asus-rog-zephyrus.jpg">
+					<div class="card-body">
+						<a href="#modal13" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/ASUS-VivoBook-X515JA-15.6-best-cheap-laptop-main1.webp">
+					<div class="card-body">
+						<a href="#modal14" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/Best-Cheap-Laptops-2023-HP-17-cn0000sa.webp">
+					<div class="card-body">
+						<a href="#modal15" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/Best-Cheap-Laptops-2023-Lenovo-IdeaPad-Flex-3.webp">
+					<div class="card-body">
+						<a href="#modal16" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/Best-Cheap-Laptops-2023-Microsogt-Surface-Laptop-Go-2.jpg">
+					<div class="card-body">
+						<a href="#modal17" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/bHuawei-MAteBook-d15est-cheap-laptop-main.webp">
+					<div class="card-body">
+						<a href="#modal18" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/Dell-Inspiron-15-3000best-cheap-laptop-main1.webp">
+					<div class="card-body">
+						<a href="#modal19" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-3 mx-auto">
+						<img class="card-img-top" src="images/laptops/macbook-pro-16.webp">
+					<div class="card-body">
+						<a href="#modal20" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- laptops section exit-->
+
+<!-- desktops section-->
+	<section id="desktops" class="py-5">
+		<div class="container">
+			<h1 class="text-center liste-text">Nos ordinateurs de bureau</h1>
+			<div class="row g-3 mx-auto">
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+				<div class="card col-md-4">
+					<div class="card-img-top">
+						
+					</div>
+					<div class="card-body">
+						<a href="#modal8" data-bs-toggle="modal" class="btn btn-secondary">Voir les details du produit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- desktops section exit-->
+
+
+
+
+
+<!--=== MODAL SECTION====-->
+<!-- smartphone section-->
+<section>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google Pixel 7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.7in, 3120×1440 OLED, 120Hz • Processor: Google Tensor G2 • RAM: 12GB • Storage: 128/256/512GB • Software: Android 13 • Cameras: 50+12+48MP (rear), 10.8MP (front) • Battery: 5000mAh • Dimensions: 162.9×76.6×8.9mm • Weight: 212g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal2">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">iPhone 14 Pro</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.1in, 2556×1179 OLED, 120Hz • Processor: A16 Bionic • RAM: 6GB • Storage: 128GB/256GB/512GB/1TB • Software: iOS 16 • Cameras: 48+12+12MP (rear), 12MP (front) • Battery: 3200mAh • Dimensions: 147.5×71.5×7.85mm • Weight: 206g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal3">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Motorola Edge 30 Ultra</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.67in, 1080×2400 pOLED, 144Hz • Processor: Qualcomm Snapdragon 8+ Gen 1 • RAM: 8/12GB • Storage: 128GB/256GB/512GB • Software: Android 12 • Cameras: 200MP+50MP+12MP (rear), 60MP (front) • Battery: 4610mAh • Dimensions: 162x74x8.4mm • Weight: 199g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal4">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Samsung Galaxy Z Fold 4</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Cover display: 6.2in 2316×904 AMOLED 120Hz • Main display: 7.6in 2176×1812 AMOLED 120Hz • Cameras: 12+50+10MP (rear), 4MP (front), 10MP (cover) • Processor: Qualcomm Snapdragon 8+ Gen 1 • Battery: 4400mAh • Storage: 256GB/512GB/1TB • RAM: 12GB • Dimensions: 155.1×130.1×6.3mm (unfolded) • Weight: 263g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal5">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Samsung Galaxy S23 Ultra</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.8in, 3088×1440 AMOLED, 120Hz • Processor: Snapdragon 8 Gen 2 • RAM: 8/12GB • Storage: 256GB/512GB/1TB • Software: Android 13 with OneUI • Cameras: 200+12+10+10MP (rear), 12MP (front) • Battery: 5000mAh • Dimensions: 163×78×8.9mm • Weight: 234g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal6">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Motorola Moto G82</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.6in, 2400×1080 AMOLED, 120Hz • Processor: Qualcomm Snapdragon 695 5G • RAM: 6GB • Storage: 128GB (expandable) • Software: Android 12 • Cameras: 50+8+2MP (rear), 16MP (front) • Battery: 5000mAh • Dimensions: 160.9x8x74.5mm • Weight: 173g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal7">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google Pixel 7 Pro</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.7in, 3120×1440 OLED, 120Hz • Processor: Google Tensor G2 • RAM: 12GB • Storage: 128/256/512GB • Software: Android 13 • Cameras: 50+12+48MP (rear), 10.8MP (front) • Battery: 5000mAh • Dimensions: 162.9×76.6×8.9mm • Weight: 212g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal8">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Apple iPhone 13 Mini</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 5.4in, 2340×1080 OLED, 60Hz • Processor: A15 Bionic • RAM: 4GB • Storage: 128/256/512GB • Software: iOS 16 • Cameras: 12+12MP (rear), 12MP (front) • Battery: 2406mAh • Dimensions: 131.5×64.2×7.65mm • Weight: 141g.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal9">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">OnePlus 11</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.7in, 3216×1440 AMOLED, 120Hz • Processor: Qualcomm Snapdragon 8 Gen 2 • RAM: 8/12GB • Storage: 128/256/512GB • Software: Android 13 with OxygenOS • Cameras: 50+48+16MP (rear), 16MP (front) • Battery: 5000mAh • Dimensions: 163×74×8.5mm • Weight: 205gp>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal10">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Sony Xperia 1 V</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Tech spec:<br>Screen: 6.5in, 1644×3840 OLED, 120Hz • Processor: Qualcomm Snapdragon 8 Gen 1 • RAM: 12GB • Storage: 256GB • Software: Android 12 • Cameras: 12+12+12MP (rear), 12MP (front) • Battery: 5000mAh • Dimensions: 165x71x8.3mm • Weight: 185g</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+</section>
+<!-- smartphone section exit-->
+<!-- laptops section-->
+<section>
+	<div class="modal" tabindex="-1" id="modal11">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Asus Vivobook E510MA</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>ASUS Vivobook 15 E510MA 15.6" Full HD Laptop (Intel Pentium N5030, 4GB RAM,</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal12">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Asus Chromebook CX1100</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>ASUS Chromebook CX1100 11.6" Laptop (Intel Celeron Processor, 4GB RAM, 64GB</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal13">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal14">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Asus VivoBook X515JA</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>ASUS VivoBook 15 - X515JA Full HD 15.6" Laptop (Intel i5-1035G1, 8GB RAM, 256GB</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal15">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">HP 17-cn0000sa</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>HP 17-cn0000sa 17.3" 1920 x 1080 pixels Intel® Core™ i3 4 GB 256 GB SSD Windows</p>
+		        	<p>Its Intel Core i3 processor and 4GB of RAM might not get your spec-loving heart racing, but this sleek laptop’s 256GB SSD storage is pretty ample, at least. And while it doesn’t have the firepower for intensive tasks, it’s still made the list thanks to a large, 17in Full HD screen, fast charging, eight hours of battery life, and a design that’s anything but budget. Throw in materials made from ocean-bound plastic, and there’s a lot to love at this price.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal16">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Lenovo IdeaPad Flex 3</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>This transforming Chromebook can switch from laptop to tablet in an instant, thanks to its specially designed hinge. With a 15.6in Full HD screen, 8GB of RAM, and 128GB of storage, it should make for a very capable basic workhorse, with some media watching and Android gaming on the side. With an attractive design and USB-C charging, it could make for a quality pared-back machine for those looking for something more slimline than a Windows or Mac alternative.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal17">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title"> Microsoft Surface Laptop Go 2</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Microsoft’s beautiful Surface Laptop Go 2 is a tad over £500, but we couldn’t help but include it at this price, given the design and build quality on offer. Available in a range of alluring hues, its 12.4in screen makes it an ideal choice for those looking for something that can slip into the trimmest of bags, while an Intel Core i5 processor, 4GB of RAM, and 128GB SSD are far from shabby given the RRP. If you’re willing to pay a little more then you can open up higher-specced models, but for a daily driver for work and movies, this will serve you well..</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal18">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Huawei MateBook D 15</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>HUAWEI MateBook D 15 - 15.6 Inch Laptop, 1080P FHD FullView Ultrabook PC (Intel</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal19">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Dell Inspiron 15 3000</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Dell Inspiron 3000 15.6" FHD Laptop, AMD Ryzen 5 3500U, 8GB RAM, 256GB SSD,</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal20">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+</section>
+<!--laptpos section exit-->
+<!-- desktops section-->
+<section>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modal1">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title">Google-Pixel-7a</h5>
+		        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<p>Modal body text goes here.</p>
+		      	</div>
+		      	<div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Commander</button>
+		      	</div>
+		    </div>
+  		</div>
+	</div>
+</section>
+<!-- desktops section exit-->
+<footer>
+	<div class="container">
+		<div class="row g-3">
+			<div class="col-md-4 mx-auto">
+				<p>Veillez vous connecter en cliquant <a href="page-connection.html">ici</a></p>
+			</div>
+			<div class="col-md-4 mx-auto">
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-linkedin"></i>
+				<i class="fa-brands fa-whatsapp"></i>
+			</div>
+			<div class="col-md-4 mx-auto">
+				<p>Copyright &copy; 2023</p>
+				<p>Designed by <strong>Roll haurly</strong> </p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-------------------------- Bootstrap core JS------------------------------------------------------------------------------------>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!------------------------- Core theme JS----------------------------------------------------------------------------------------->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

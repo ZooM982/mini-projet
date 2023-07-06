@@ -149,3 +149,23 @@ footer i{
 	font-size: 25px;
 	padding: 10px;
 }
+
+
+
+
+
+#liste-produit .card{
+	border: none;
+	background: initial;
+}
+#liste-produit .card .card-body{
+	background: linear-gradient(to right, green, yellow, red);
+}
+#liste-produit .card .card-body .btn{
+	margin-left: 15px;
+}
+#liste-produit .liste-text{
+	height: 100px;
+	padding: 15px;
+	background: white;
+}
