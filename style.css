@@ -33,6 +33,9 @@ background: #eee;
 
 /*-- navbar section--*/
 
+.navbar{
+	height: 100px;
+}
 .navbar i{
 	font-size: 35px;
 }
@@ -120,6 +123,21 @@ background: #eee;
 		width: 300px;
 		height: 200px;
 		margin-left: 40px;
+	}
+	.navbar .navbar-brand{
+		width: 50px;
+	}
+	.navbar .navbar-brand img{
+		width: 30px;
+		height: 30px;
+		margin-left: -100px;
+		margin-top: -20px;
+	}
+	.navbar .navbar-toggler button{
+		margin-left: -50px;
+	}
+	.navbar i{
+		margin-left: -70px;
 	}
 }
 /*--Temoignage section exit--*/
