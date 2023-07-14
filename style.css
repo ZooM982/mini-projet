@@ -153,10 +153,10 @@ footer i{
 	width: 280px;
 	background: white;
 	border-radius: 50px;
-	margin-left: 65px;
+	margin-left: auto;
 	}
 	#produit-achter .prac{
-		margin-left: 30px;
+		margin-left: auto;
 	}
 	#type-produit .carousel-item img{
 		width: 300px;
@@ -169,12 +169,17 @@ footer i{
 	.navbar .navbar-brand img{
 		width: 30px;
 		height: 30px;
-		margin-top: -15px;
+		margin-top: -20px;
 	}
 	.navbar .navbar-toggler button{
-		margin-left: -50px;
+		margin-left: auto;
 	}
 	.navbar i{
 		margin-left: -70px;
+	}
+	.collapse {
+		padding: 15px;
+		width: 100%;
+		margin-left: -15px;
 	}
 }
