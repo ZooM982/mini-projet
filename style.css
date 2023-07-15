@@ -194,4 +194,7 @@ footer i{
 	#type-produit .carousel-control-prev-icon{
 		margin-left: -10px;
 	}
+	#type-produit .carousel-indicators:before{
+		color: red;
+	}
 }
