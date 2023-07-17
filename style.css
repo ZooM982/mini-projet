@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: radial-gradient(whitesmoke, gray, black);
+	background: radial-gradient(whitesmoke, gray, white);
 	font-weight: 700;
 }
 .titre{
